@@ -3,3 +3,8 @@ __pycache__/
 *.log
 *.sqlite
 last_extraction.txt
+
+*.log
+transformed_full.csv
+transformed_incremental.csv
+transformed_incremental.txt

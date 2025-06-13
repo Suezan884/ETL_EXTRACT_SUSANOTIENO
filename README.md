@@ -24,3 +24,9 @@ This project contains a Jupyter notebook (`etl_extraction.ipynb`) that demonstra
 
 ##  Incremental Extraction 
    The notebook uses `last_extraction.txt` to track the last extraction time. To reset or change the checkpoint, edit this file.
+
+##  Transformations Applied
+
+Filled missing values in `parental_education_level` with 'Unknown'
+Categorized `age` into groups: Teen, Young Adult, Adult
+Classified `exam_score` as Pass/Fail
