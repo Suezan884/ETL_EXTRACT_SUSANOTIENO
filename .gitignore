@@ -8,5 +8,9 @@ last_extraction.txt
 transformed_full.csv
 transformed_incremental.csv
 transformed_incremental.txt
+
 *.db
 *.parquet
+loaded_data/
+
+
